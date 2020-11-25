@@ -1,0 +1,100 @@
+::placeholder {
+	text-align: center;
+	color: #83a59877;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	width: 100vw;
+	background-color: #282828;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	font-family: "Cascadia Code";
+}
+
+input[type="text"] {
+	height: 4vh;
+	width: 20vw;
+	color: #458588;
+	background-color: transparent;
+	border-color: transparent;
+	outline-color: transparent;
+	border-bottom: 2px solid #fff0;
+	font-family: "Cascadia Code";
+	text-align: center;
+	font-size: 1em;
+	transition: 0.2s;
+}
+input[type="text"]:focus { border-bottom: 2px solid #689d6a }
+input[type="text"]:focus::-webkit-input-placeholder { color:transparent; }
+input[type="text"]:focus::-moz-placeholder { color:transparent; }
+input[type="text"]:-moz-placeholder { color:transparent; }
+
+a { color: #928374; text-decoration: none; }
+a:visited {color: #928374; }
+a:hover { color: #ebdbb2; }
+
+.title { color: #98971a; }
+
+.container {
+	margin: 10px;
+	padding: 10px;
+	background-color: #3c3836;
+	display: flex;
+	flex-direction: row;
+	border-radius: 5px;
+	/* box-shadow: 5px 5px 8px #1115; */
+	transition: 0.2s;
+}
+.container:hover { box-shadow: 5px 5px 8px #1115;}
+
+.form {
+	height: 4vh;
+	width: 20vw;
+	background-color: #3c3836;
+	border-color: #0ff;
+	border-radius: 5px;
+	transition: 0.2s;
+}
+/* .form:hover { box-shadow: 5px 5px 8px #1115;} */
+
+.content {
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.chan {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.social {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.edu {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.dev {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
